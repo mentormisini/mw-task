@@ -4,7 +4,7 @@ import classes from './button.module.css';
 const Button =  ({ styleClass, value, onClick}) => (
     <button className={`${classes.btn} ${styleClass}`}
             onClick={(event:MouseEvent<HTMLButtonElement>)=>onClick(event)}>
-            {value='Check Course'}
+            {value='Check course'}
     </button>
 );
 
