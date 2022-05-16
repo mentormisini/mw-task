@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+.container{
+    padding:20px 150px 50px 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    gap:20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img{
+    width: 60px;
 }
+h1{
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    color:dimgray;
+    margin-top: 0px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p{
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 400;
+    color:dimgray;
+    margin-top: -10px;
 }
-
-.App-link {
-  color: #61dafb;
+.break{
+    flex-basis: 100%;
+    overflow: hidden;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card1{
+    background-image: linear-gradient(
+            0deg,
+            hsl(280deg 55% 96%) 0%,
+            hsl(280deg 44% 97%) 46%,
+            hsl(0deg 0% 99%) 84%
+    );
+}
+.card2{
+    background-image: linear-gradient(
+            0deg,
+            hsl(227deg 70% 96%) 0%,
+            hsl(227deg 55% 97%) 46%,
+            hsl(0deg 0% 99%) 84%
+    );
+}
+.card3{
+    background-image: linear-gradient(
+            0deg,
+            hsl(185deg 52% 96%) 0%,
+            hsl(185deg 41% 97%) 46%,
+            hsl(0deg 0% 99%) 84%
+    );
+}
+.card4{
+    background-image: linear-gradient(
+            0deg,
+            hsl(9deg 62% 96%) 0%,
+            hsl(9deg 50% 97%) 46%,
+            hsl(0deg 0% 99%) 84%
+    );
+}
+.bcard1{
+    background-color: #BC62F8;
+    margin-top:30px;
+}
+.bcard2{
+    background-color: #6A74C2;
+}
+.bcard3{
+    background-color: #24C4D8;
+    margin-top: 10px;
+}
+.bcard4{
+    background-color: #FB553A;
+    margin-top:30px;
+}
+.bcard5{
+    background-color: #24C4D8;
+    margin-top:30px;
+}
+.bcard6{
+    background-color: #BC62F8;
+    margin-top:5px;
+}
+.center {
+    text-align: center;
+}
+.pagination {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.pagination a {
+    color: black;
+    padding:10px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+.pagination a.active {
+    background-color: #87BFFF;
+    color: white;
+    border-radius: 50px;
 }

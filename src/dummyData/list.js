@@ -22,5 +22,7 @@ const Details=[
     {
         title:"Filming and Operating",
         description:"Here has to be short description of this course."
-    },]
+    },
+]
+
 export default Details;
