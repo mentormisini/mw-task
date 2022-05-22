@@ -6,8 +6,6 @@ import Details from "./dummyData/list";
 import Datas from './dummyData/datas';
 
 function App(){
-
-
 const url='localhost:3000';
   return (
     <div className="App">
@@ -23,6 +21,7 @@ const url='localhost:3000';
                      </Card>
                  ))}
           </div>
+
           <div className="center">
               <div className="pagination">
                   <a href={url} className="active">1</a>

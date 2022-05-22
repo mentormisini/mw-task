@@ -6,6 +6,7 @@
     justify-content: center;
     justify-content: space-between;
     gap:20px;
+    padding: 40px calc((100% - (255px * 4)) / 2);
 }
 img{
     width: 60px;
